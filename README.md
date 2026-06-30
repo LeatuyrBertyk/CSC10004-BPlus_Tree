@@ -34,13 +34,13 @@ To compile and run this project, the following environment is recommended:
    g++ -O3 data_generator.cpp -o generator.exe  # Generates 'dataset_large.csv'
    ```
 3. Compile the engine:
-  ```bash
-  g++ -03 *.cpp -o engine.exe
-  ```
+   ```bash
+   g++ -03 *.cpp -o engine.exe
+   ```
 4. Execution:
-  ```bash
-  .\engine.exe
-  ```
+   ```bash
+   .\engine.exe
+   ```
 
 ## Execution & Benchmarking
 After executing program, the console will output results showing the Mean Execution tie (ns) and Mean Disk reads for each configuration. In a specific, the engine will initialize B+ Tree structure from the dataset, run 100 random queries for both Point and Range queries across various data sizes $N$.
