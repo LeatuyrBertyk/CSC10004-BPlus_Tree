@@ -11,10 +11,27 @@ This storage engine is designed to handle datasets exceeding RAM capacity by usi
 ## Repository Structure
 ```plaintext
 Solution/
-├── main.cpp              # Entry point & Benchmark suite
-├── bplus_tree_disk.h     # Physical Node & On-disk structure definitions
-├── benchmark.cpp         # Performance measurement tools
-└── ...                   # Auxiliary I/O interfaces
+├── bplus_tree_disk.h
+├── data_generator.cpp
+├── global_variables.h
+├── main.cpp
+├── Benchmark/
+│   ├── benchmark.cpp
+│   └── benchmark.h
+├── PageManipulation/
+│   ├── Insert/
+│   │   ├── insert.cpp
+│   │   └── insert.h
+│   ├── Query/
+│   │   ├── query.cpp
+│   │   └── query.h
+│   └── ReadWrite/
+│       ├── read_write.cpp
+│       └── read_write.h
+├── Search/
+│   ├── search.cpp
+│   └── search.h
+Report.pdf
 ```
 
 ## Requirements
