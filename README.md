@@ -68,7 +68,7 @@ Following the empirical measurement, the project requires an exploration about f
 - CPU-Bound and I/O-Bound Interaction
 - Data Fragmentation & System Reality
 
-Detailed analysis and plots for these topics are detailedly documented in the `Report.pdf` file.
+Detailed analyses and plots for these topics are documented in the `Report.pdf` file.
 
 ## Conclusion
 This implementation validates that the B+ Tree architecture is superior for disk-based storage engines. Following more in report file to get more detailed analyses.
