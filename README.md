@@ -54,4 +54,4 @@ Following the empirical measurement, the project requires an exploration about f
 Detailed analysis and plots for these topics are detailedly documented in the `Report.pdf` file.
 
 ## Conclusion
-This implementation validates that the B+ Tree architecture is superior for disk-based storage engines. Following more in report file to get more detailed analysises.
+This implementation validates that the B+ Tree architecture is superior for disk-based storage engines. Following more in report file to get more detailed analyses.
